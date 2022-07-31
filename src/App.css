@@ -70,8 +70,8 @@ button{
   align-items: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   body {
-    width: 500px;
+    width: 400px;
   }
 }
