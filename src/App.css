@@ -23,8 +23,13 @@ body {
 }
 
 .show_principal{
+  width: 100%;
   background-color:var(--fondo_diseno);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .font_color{
