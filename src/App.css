@@ -13,14 +13,12 @@
 body {
   width: 1250px;
   height: 100vh;
-  background-image: url(../public/clear_sky.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .App{
-  width: 100%;
   background-image: url(../public/clear_sky.jpg);
 }
 
