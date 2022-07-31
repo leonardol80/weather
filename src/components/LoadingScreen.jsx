@@ -2,7 +2,9 @@ import React from 'react'
 
 const LoadingScreen = () => {
   return (
-    <h2>Loading ...</h2>
+    <div className='loading'>
+        <img src="../public/loading.jpg" alt="" />
+    </div>
   )
 }
 
