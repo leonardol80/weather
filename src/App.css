@@ -13,13 +13,27 @@
 body {
   width: 1250px;
   height: 100vh;
+  background-image: url(../public/clear_sky.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.App{
+/* .App{
   background-image: url(../public/clear_sky.jpg);
+} */
+
+.weather_description{
+  padding:10px;
+}
+
+.unite_block{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .show_principal{
@@ -30,6 +44,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2em;
+  border-radius: 10px;
 }
 
 .font_color{
@@ -42,12 +58,14 @@ body {
 
 li{
   list-style: none;
-  color:var(--color_tittle)
+  color:var(--color_tittle);
+  text-align: left;
 }
 
 span{
   color:black;
   font-weight: bold;
+  padding: 10px;
 }
 
 button{
@@ -59,9 +77,6 @@ button{
   border: 0;
   border-radius: 10px;
   cursor: pointer;
-  margin-bottom: 10px;
-  /* aspect-ratio: 1; */
-  /* font-size: 2em; */
 }
 
 .temperatura{
