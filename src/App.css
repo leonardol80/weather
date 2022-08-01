@@ -1,8 +1,7 @@
 :root {
   --color_blanco: #ffffff;
-  --fondo_diseno: #D8D8D8;
-  --color_tittle: #31087B;
-
+  --fondo_diseno: #d8d8d8;
+  --color_tittle: #31087b;
 }
 * {
   margin: 0;
@@ -23,11 +22,11 @@ body {
   background-image: url(../public/clear_sky.jpg);
 } */
 
-.weather_description{
-  padding:10px;
+.weather_description {
+  padding: 10px;
 }
 
-.unite_block{
+.unite_block {
   width: 100%;
   text-align: center;
   display: flex;
@@ -36,9 +35,9 @@ body {
   align-items: center;
 }
 
-.show_principal{
+.show_principal {
   width: 100%;
-  background-color:var(--fondo_diseno);
+  background-color: var(--fondo_diseno);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -48,27 +47,27 @@ body {
   border-radius: 10px;
 }
 
-.font_color{
-  color:var(--color_tittle);
+.font_color {
+  color: var(--color_tittle);
 }
 
-.resaltar{
+.resaltar {
   font-weight: bold;
 }
 
-li{
+li {
   list-style: none;
-  color:var(--color_tittle);
+  color: var(--color_tittle);
   text-align: left;
 }
 
-span{
-  color:black;
+span {
+  color: black;
   font-weight: bold;
   padding: 10px;
 }
 
-button{
+button {
   color: var(--color_blanco);
   background-color: var(--color_tittle);
   font-weight: bold;
@@ -79,11 +78,11 @@ button{
   cursor: pointer;
 }
 
-.temperatura{
+.temperatura {
   padding: 10px;
 }
 
-.loading{
+.loading {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -92,6 +91,20 @@ button{
 
 @media (max-width: 500px) {
   body {
-    width: 500px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 500px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
