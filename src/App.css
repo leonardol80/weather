@@ -13,6 +13,8 @@ body {
   width: 1250px;
   height: 100vh;
   background-image: url(../public/clear_sky.jpg);
+  background-size: 100%;
+  /* background-repeat: no-repeat; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,6 +98,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: 100%;
   }
 }
 
@@ -106,5 +109,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: 100%;
   }
 }
