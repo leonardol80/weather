@@ -19,7 +19,7 @@ const CardWeather = ({ lon, lat }) => {
           setWeather(res.data);
           const temp = {
             celsius: `${Math.round(res.data.main.temp - 273.15)} °C`,
-            farenheit: `${Math.round(res.data.main.temp - (273.15) * 9 / 5 + 32)} °F`,
+            farenheit: `${Math.round(res.data.main.temp - 273.15) * 9 / 5 + 32} °F`,
           };
           setTemperature(temp);
           setIsLoading(false);
