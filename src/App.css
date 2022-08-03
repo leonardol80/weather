@@ -12,7 +12,8 @@
 body {
   width: 1250px;
   height: 100vh;
-  background-image: url(../public/clear_sky.jpg);
+  /* background-image: url(../public/clear_sky.jpg); */
+  background-image: url(../public/sun-63.gif);
   background-size: 100%;
   /* background-repeat: no-repeat; */
   display: flex;
